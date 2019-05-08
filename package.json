@@ -1,0 +1,27 @@
+{
+  "name": "quiz-coach",
+  "version": "1.0.0",
+  "description": "A MERN stack application designed to help people train for trivia games",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigbuckalex/quiz-coach.git"
+  },
+  "keywords": [
+    "trivia"
+  ],
+  "author": "Alex Lilly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigbuckalex/quiz-coach/issues"
+  },
+  "homepage": "https://github.com/bigbuckalex/quiz-coach#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.6"
+  }
+}

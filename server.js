@@ -10,9 +10,9 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const db = require('./config/keys').mongoURI;
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/quiz-coach";
 
-mongoose.connect(db)
+mongoose.connect(MONGODB_URI, {useNewUrlParser: true})
     .then(() => console.log('MongoDB connected...'))
     .catch(err => console.log(err));
 

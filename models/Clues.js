@@ -23,7 +23,7 @@ const CluesSchema = new Schema({
     show_number: {
         type: String
     }
-},{collection: 'quiz-coach.quiz-coach'});
+});
 
 Clues = mongoose.model('Clues', CluesSchema);
 

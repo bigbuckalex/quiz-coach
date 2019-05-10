@@ -16,8 +16,8 @@ router.get('/random', (req, res) => {
 router.get('/', (req, res) => {
   Clues.find(
     {
-      category: req.body.category,
-      value: req.body.value
+      category: req.params.category,
+      value: req.params.value
     })
     .then(clues => res.json(clues));
 });

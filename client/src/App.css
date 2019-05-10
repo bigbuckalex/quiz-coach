@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Audiowide', cursive;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+Container {
+    width: 100%;
+}
+
+#nav {
+    margin-bottom: 50px;
+}
